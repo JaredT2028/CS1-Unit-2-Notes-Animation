@@ -21,3 +21,21 @@
 #scale {
     transform: scale(0.8);
 }
+
+#skew {
+    transform: skew(-25deg);
+}
+
+/*translate(x) moves to the right (if x is positive)
+  translate(x,y) move diagonally 
+  translate(0,y) moves down (along the y-axis) 
+*/
+#translate {
+    transform: translate(50px, -10px);
+}
+
+/* You can chain multiple transforms on the same element */
+
+#chain {
+    transform: rotate(95deg) skew(-10deg);
+}
